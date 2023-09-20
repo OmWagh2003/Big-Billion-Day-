@@ -131,6 +131,12 @@ components:
         comment:
           type: string
           description: The text comment provided in the review
+        categoryId:
+          type: integer
+          description: The ID of the category the product belongs to
+        categoryName:
+          type: string
+          description: The name of the category the product belongs to
     NewReview:
       type: object
       properties:
